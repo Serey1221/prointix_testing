@@ -27,15 +27,7 @@
 }
 .img-header {
   margin-top: 45px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
-/* .img-header-about {
-  margin-top: 45px;
-  background: linear-gradient(rgba(135, 59, 132, 0.5), rgba(135, 59, 132, 0.5)),
-    url(../img/prointix_image/Rectangle-8.png), no-repeat center center;
-} */
 .img-overlay {
   position: absolute;
   top: -130px;

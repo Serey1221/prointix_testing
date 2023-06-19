@@ -125,6 +125,10 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+    public function actionCareers()
+    {
+        return $this->render('careers');
+    }
     public function actionUxUiDesgin()
     {
         return $this->render('home_section/hero_desgin.php');
