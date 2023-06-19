@@ -25,7 +25,8 @@ class AppAsset extends AssetBundle
         'css/_homepage.css',
         'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css',
         'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css',
-        'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css'
+        'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css',
+        'css/style.css'
     ];
     public $js = [
         'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js',
