@@ -1,0 +1,169 @@
+.cover-custom {
+  position: relative;
+  color: white;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  margin-top: 130px;
+}
+.text-custom-contact {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 70px;
+}
+.text-custom-contact-p {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+}
+.text-custom-careers {
+  font-weight: 700;
+  font-size: 70px;
+}
+.text-custom-careers-h5 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #637381;
+}
+.img-header {
+  margin-top: 45px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* .img-header-about {
+  margin-top: 45px;
+  background: linear-gradient(rgba(135, 59, 132, 0.5), rgba(135, 59, 132, 0.5)),
+    url(../img/prointix_image/Rectangle-8.png), no-repeat center center;
+} */
+.img-overlay {
+  position: absolute;
+  top: -130px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
+}
+.contact-overlay {
+  position: absolute;
+  top: 0;
+  right: 12px;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
+}
+.overlay-teal {
+  background-color: rgba(55, 120, 124, 0.5);
+}
+.overlay-violet {
+  background-color: rgba(135, 59, 132, 0.5);
+}
+.overlay-red {
+  background-color: rgba(164, 54, 75, 0.5);
+}
+.team-item {
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+.team-img {
+  position: relative;
+}
+.card-img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.team-text {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  color: #00264d;
+}
+.card-img-top {
+  max-width: 237px;
+  max-height: 196px;
+  margin: 17px 25px;
+  border-radius: 20.34px;
+}
+.text-careers {
+  margin-top: 17px;
+  width: 260px;
+  height: 196px;
+}
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.button {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 9px 2px;
+}
+.button:hover {
+  background-color: #00264d;
+  color: white;
+}
+.line {
+  margin-bottom: 12px;
+  margin-left: -495px;
+  width: 125px;
+  height: 3px;
+  background-color: #ffff;
+}
+.line-about {
+  margin-bottom: 12px;
+  width: 85px;
+  height: 3px;
+  background-color: #ffff;
+}
+.line-careers {
+  margin-bottom: 12px;
+  width: 100px;
+  height: 3px;
+  background: #008080;
+}
+.line-contact {
+  margin-bottom: 12px;
+  width: 75px;
+  height: 3px;
+  background: #008080;
+}
+.btn-icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  color: #212121;
+  text-align: center;
+  line-height: 36px;
+}
+.btn-icon:hover {
+  background: #dc3545;
+  color: #ffff;
+  border: #dc3545;
+}
+.chat {
+  background: #dc3545;
+  border-radius: 6px;
+  position: fixed;
+  bottom: 23px;
+  right: 10px;
+  width: 74px;
+  font-size: 12px;
+}

@@ -125,4 +125,20 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+    public function actionUxUiDesgin()
+    {
+        return $this->render('home_section/hero_desgin.php');
+    }
+    public function actionSoftwareSolution()
+    {
+        return $this->render('home_section/hero_software_solution.php');
+    }
+    public function actionMobileApp()
+    {
+        return $this->render('home_section/hero_mobile_app.php');
+    }
+    public function actionWebsiteDevelopment()
+    {
+        return $this->render('home_section/hero_website_development.php');
+    }
 }
