@@ -78,7 +78,7 @@ body {
 }
 .overlay-cover {
   background-color: rgba(101, 85, 27, 0.5);
-  height: 512px;
+  height: 568px;
 }
 .overlay-software {
   background-color: rgba(56, 83, 124, 0.5);
@@ -179,9 +179,43 @@ body {
 }
 .social-link a .fab {
   font-size: 20px;
-  line-height: 30px;
- 
-  
-  
- 
+  line-height: 30px; 
 }
+.prointix img{
+  width: 100%;
+  object-fit: cover;
+  height: 568px;
+}
+
+body > main > section:nth-child(4) > div > div.container.mt-5.mb-3 > div > div.swiper-button-prev{
+  left: calc(49% - 40px);
+  top: 90%;
+  color: #ffff;
+  background-color: #008080;
+  width: 47px;
+}
+body > main > section:nth-child(4) > div > div.container.mt-5.mb-3 > div > div.swiper-button-next{
+  right: calc(49% - 40PX);
+  top: 90%;
+  color: #ffff;
+  background-color: #008080;
+  width: 47px;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next :after{
+  display: none;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+  display: none;
+}
+.border{
+  
+
+  height: 58px;
+  width: 120px;
+  position: absolute;
+  left: 576px;
+  background-color: aliceblue;
+  bottom: 10px;
+}
+
+
