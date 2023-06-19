@@ -31,9 +31,9 @@
                     <p><i class="fas fa-map-marker-alt me-3"></i>Siem Reap Province</p>
                 </div>
                 <div class="social-link d-flex">
-                    <a href="#"><i class="fab fa-telegram-plane"></i></a>
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-telegram-plane"></i></a>
                 </div>
             </div>
 
