@@ -7,7 +7,7 @@ use yii\helpers\Url;
 $this->title = 'ABOUT US';
 ?>
 <div class="img-header d-flax">
-    <img src="<?= Yii::getAlias("@web/img/prointix_image/Rectangle-8.png"); ?>" class="gradient-custom img-fluid" alt="about image">
+    <img src="<?= Yii::getAlias("@web/img/prointix_image/Rectangle-8.png"); ?>" class="img-fluid" alt="about image">
     <div class="cover-custom img-overlay d-flex flex-column align-items-center justify-content-center overlay-violet">
         <h1>Who we are</h1>
         <div class="line-about"></div>

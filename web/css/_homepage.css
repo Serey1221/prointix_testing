@@ -32,7 +32,6 @@ body {
 .nav_btn_contact:hover {
   background-color: #0f2f52;
 }
-
 .nav_ul {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
@@ -174,14 +173,10 @@ body {
   border-radius: 50%;
   align-items: center;
   display: flex;
-  
+
   justify-content: center;
 }
 .social-link a .fab {
   font-size: 20px;
   line-height: 30px;
- 
-  
-  
- 
 }
