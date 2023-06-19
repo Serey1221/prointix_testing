@@ -1,11 +1,14 @@
 <?php
 
 use yii\helpers\Url;
+
+$controller = Yii::$app->controller->id;
+$action = Yii::$app->controller->action->id; ?>
 ?>
 <section>
   <nav class="navbar navbar-expand-lg fixed-top bg-white">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="<?= Yii::getAlias('@web/img/logo/PROINTIX-LOGO.png') ?>" alt="logo" width="139px" /></a>
+      <a class="navbar-brand" href="<?= Yii::$app->homeUrl ?>"><img src="<?= Yii::getAlias('@web/img/logo/PROINTIX-LOGO.png') ?>" alt="logo" width="139px" /></a>
       <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -37,16 +40,16 @@ use yii\helpers\Url;
               </ul>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link active text-dark" aria-current="page" href="<?= Url::to(['site/about']) ?>">About</a>
+              <a class="nav-link text-dark <?= $action == 'about' ? 'active' : '' ?>" aria-current="page" href="<?= Url::to(['site/about']) ?>">About</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link text-dark" href="<?= Url::to(['site/careers']) ?>">Careers</a>
+              <a class="nav-link text-dark <?= $action == 'careers' ? 'active' : '' ?>" href="<?= Url::to(['site/careers']) ?>">Careers</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link active btn btn-danger text-white nav_btn_contact" href="<?= Url::to(['site/contact']) ?>">Contact us</a>
+              <a class="nav-link btn btn-danger text-white nav_btn_contact" href="<?= Url::to(['site/contact']) ?>">Contact us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-dark nav_ul" href="#"><i class="far fa-search"></i></a>
+              <a class="nav-link text-dark nav_ul" href="#"><i class="far fa-search"></i></a>
             </li>
             <div class="top-bar-item top-bar-item-right px-0">
               <ul class="header-nav nav">

@@ -1,3 +1,19 @@
+.nav-link {
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.nav-link.disabled {
+  color: #6c757d;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.nav-link.active {
+  color: #495057;
+  background-color: #f3f3f3;
+  border-color: #dee2e6 #dee2e6 #f3f3f3;
+}
 .cover-custom {
   position: relative;
   color: white;
